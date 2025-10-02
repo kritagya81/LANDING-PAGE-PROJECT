@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kritagya Pandey | Landing Page</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0d0d0d, #1a001f);
+      color: #e0d7ff;
+      line-height: 1.6;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(20, 0, 30, 0.95);
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 4px 15px rgba(138, 43, 226, 0.4);
+    }
+
+    header h1 {
+      color: #a64dff;
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #e0d7ff;
+      margin-left: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #a64dff;
+    }
+
+    section {
+      padding: 120px 80px;
+      min-height: 100vh;
+    }
+
+    #home {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    #home h2 {
+      font-size: 2.5rem;
+      color: #a64dff;
+      margin-bottom: 10px;
+    }
+
+    #home p {
+      font-size: 1.2rem;
+      max-width: 700px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      border-radius: 30px;
+      border: 2px solid #a64dff;
+      color: #a64dff;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #a64dff;
+      color: #0d0d0d;
+      box-shadow: 0 0 20px #a64dff;
+    }
+
+    #skills {
+      background: #0d0014;
+      border-radius: 15px;
+      box-shadow: inset 0 0 30px rgba(166, 77, 255, 0.3);
+    }
+
+    #skills h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: #a64dff;
+      margin-bottom: 40px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .skill {
+      background: rgba(166, 77, 255, 0.08);
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .skill:hover {
+      transform: translateY(-8px);
+      background: rgba(166, 77, 255, 0.15);
+    }
+
+    #contact {
+      text-align: center;
+    }
+
+    #contact h2 {
+      font-size: 2.2rem;
+      color: #a64dff;
+      margin-bottom: 20px;
+    }
+
+    #contact p {
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #0d0d0d;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+      border-top: 1px solid rgba(166, 77, 255, 0.2);
+    }
+
+    /* Smooth scroll */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="c:\Users\KRITAGYA PANDEY\Documents\WhatsApp Image 2025-08-28 at 17.43.40_e1d82daf.jpg" alt="Kritagya Pandey Photo" style="width:100px; height:100px; border-radius:50%; border:3px solid white; object-fit:cover;">
+    <h1>Kritagya Pandey</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/"></a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home">
+    <h2>Hello, I'm Kritagya Pandey</h2>
+    <p>I’m Kritagya Pandey, a passionate learner and aspiring developer with strong skills in web development, problem solving, and creative design. 
+      I enjoy building impactful projects, exploring new technologies, and working in collaborative environments. 
+      My goal is to use creativity and technology together to deliver solutions that inspire and create positive change..</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">Web Development</div>
+      <div class="skill">HTML / CSS / JavaScript</div>
+      <div class="skill">Problem Solving</div>
+      <div class="skill">Team Collaboration</div>
+      <div class="skill">Creativity & Design</div>
+      <div class="skill">Leadership</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:kritagya2808@gmail.com" style="color:#a64dff;">kritagya2808@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/kritagya-pandey-a38464318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="color:#a64dff;">https://www.linkedin.com/in/kritagya-pandey-a38464318</a></p>
+    <p>GitHub: <a href="https://github.com/kritagya81" target="_blank" style="color:#a64dff;">https://github.com/kritagya81</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/kritagya.03?igsh=MTU2MGxlc2RtdHZlZQ==" target="_blank" style="color:#a64dff;">https://www.instagram.com/kritagya.03</a></p>
+    <a href="#home" class="btn">Back to Top</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Kritagya Pandey. All rights reserved.
+  </footer>
+
+</body>
+</html>
